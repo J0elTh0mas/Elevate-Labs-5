@@ -1,0 +1,17 @@
+When observing the pcap file it can be understood that there is heavy traffic flowing through the desktop.
+
+That being said a few main protocols that can be noted are:-
+  TCP  : Known as Transmission control protocol. This protocol is used in many cases that require reliability and accuracy. This protocols begins with
+         the connection being established using a three way handshake that ensures that both users are properly connected. This also ensures that no packets
+         lost in transit as it will ensure that the packets are delivered in the right order and will re-transmit any missing packets. This can be seen in the 
+         use cases of websites, file trasnfers and remote logins.
+  DNS  : Domain Name Service, this allows for users to convert ip addresses into human readable website names. So when the user uses a web browser 
+        he can input a name of website and then the broswer will query this name with a known DNS resolver and then obtains the ip address of the website
+        this makes it very useful in everday use.
+  UDP  : User Datagram Protocol, this can be seen to the opposite of TCP in terms of usage as the users using this protocol do not need to establish a
+         closed connection. This protocol sends the packets individually with there being no acknowledgement of the packet being received. This is used in
+         applications such as streaming or for Voice over Internet Protocol (VoIP)
+  ICMP : This is known as Internet Control Message Protocol, it is used to perform network diagnostics and other control messages. This mainly used for
+         diagnostics and troubleshooting you will not see this used for normal network use. 
+  ARP  : Address Resolution Protocol, is used to translate ip addresses to mac addresses which is the hardware address. This makes it so that the system knows
+         which system to send data to on the local network.
